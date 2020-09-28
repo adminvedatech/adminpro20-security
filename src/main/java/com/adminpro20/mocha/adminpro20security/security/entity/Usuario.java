@@ -23,7 +23,7 @@ public class Usuario {
     private String email;
     private String photoName;
     @NotNull
-//    @JsonProperty( value = "password", access = JsonProperty.Access.WRITE_ONLY)
+    @JsonProperty( value = "password", access = JsonProperty.Access.WRITE_ONLY)
     private String password;
     @NotNull
     private boolean enabled;
